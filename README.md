@@ -4,7 +4,7 @@ BTK Makine Öğrenmesi — uçtan uca proje. NASA C-MAPSS FD001 verisiyle turbof
 
 | | |
 |---|---|
-| **Canlı uygulama** | [Streamlit Cloud bağlantısı] |
+| **Canlı uygulama** | [[Streamlit Cloud bağlantısı] ](https://turbofan-rul-tahmini.streamlit.app)|
 | **Teknik rapor** | `rapor/BTK_RUL_Teknik_Rapor.pdf` |
 | **Hazırlayan** | Melih EFE |
 
