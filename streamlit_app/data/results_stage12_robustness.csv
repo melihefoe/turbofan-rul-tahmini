@@ -1,0 +1,11 @@
+senaryo,seviye,RMSE
+gürültü,0.00 × std,13.364989002709589
+gürültü,0.05 × std,13.68544081389644
+gürültü,0.10 × std,14.328162031033411
+gürültü,0.20 × std,23.814417934044055
+gürültü,0.30 × std,29.331264245181814
+geçmiş uzunluğu,tüm geçmiş,13.364989002709589
+geçmiş uzunluğu,son 100 döngü,13.364989002709589
+geçmiş uzunluğu,son 75 döngü,13.36415281244544
+geçmiş uzunluğu,son 50 döngü,13.364204599413755
+geçmiş uzunluğu,son 31 döngü,16.464191179453312

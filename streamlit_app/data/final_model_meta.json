@@ -1,0 +1,54 @@
+{
+  "final_model": "LightGBM",
+  "params": {
+    "window": 50,
+    "n_estimators": 300,
+    "learning_rate": 0.03353772112891453,
+    "num_leaves": 28,
+    "max_depth": 8,
+    "min_child_samples": 20,
+    "subsample": 0.937755463558099,
+    "colsample_bytree": 0.7362247070594815,
+    "reg_lambda": 0.05825476212677464
+  },
+  "window": 50,
+  "cap": 125,
+  "stats": [
+    "mean",
+    "std",
+    "slope"
+  ],
+  "features": [
+    "s2",
+    "s3",
+    "s4",
+    "s7",
+    "s8",
+    "s9",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s17",
+    "s20",
+    "s21"
+  ],
+  "cv_test_RMSE": 14.098895701338174,
+  "cv_test_RMSE_std": 0.572598232792233,
+  "cv_test_NASA": 1238.3800045051987,
+  "versions": {
+    "python": "3.13.18",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "optuna": "5.1.0",
+    "lightgbm": "4.6.0",
+    "xgboost": "3.4.1"
+  },
+  "tuning_budget": {
+    "n_trials": 30,
+    "timeout_min": 15,
+    "fast_mode": false
+  }
+}

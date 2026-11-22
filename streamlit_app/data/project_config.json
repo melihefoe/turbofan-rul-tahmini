@@ -1,0 +1,47 @@
+{
+  "seed": 42,
+  "cap": 125,
+  "window": 30,
+  "stats": [
+    "mean",
+    "std",
+    "slope"
+  ],
+  "eval_max_rul": 150,
+  "eval_n_cuts": 10,
+  "candidate_model": "HistGradientBoostingRegressor",
+  "strong_competitors": [
+    "RandomForestRegressor",
+    "SVR",
+    "LightGBM/XGBoost"
+  ],
+  "stage8_best_test_RMSE": 15.907,
+  "final_model": "LightGBM",
+  "final_window": 50,
+  "final_params": {
+    "window": 50,
+    "n_estimators": 300,
+    "learning_rate": 0.03353772112891453,
+    "num_leaves": 28,
+    "max_depth": 8,
+    "min_child_samples": 20,
+    "subsample": 0.937755463558099,
+    "colsample_bytree": 0.7362247070594815,
+    "reg_lambda": 0.05825476212677464
+  },
+  "stage11_final_cv_RMSE": 14.098895701338174,
+  "test_RMSE": 13.364989002709589,
+  "test_RMSE_CI95": [
+    11.346600864630776,
+    15.354948269926924
+  ],
+  "test_NASA": 274.62483486160386,
+  "test_MAE": 10.202270273924949,
+  "test_R2": 0.8965625829289321,
+  "test_RMSE_near50": 6.023968578729285,
+  "test_critical_recall_pct": 88.0,
+  "risk_thresholds": {
+    "kritik": 30,
+    "bakim_planla": 75
+  }
+}
