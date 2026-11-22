@@ -6,9 +6,7 @@ BTK Makine Öğrenmesi — uçtan uca proje. NASA C-MAPSS FD001 verisiyle turbof
 |---|---|
 | **Canlı uygulama** | [Streamlit Cloud bağlantısı] |
 | **Teknik rapor** | `rapor/BTK_RUL_Teknik_Rapor.pdf` |
-| **Sunum** | [Sunum bağlantısı / PDF] |
-| **Demo videosu (yedek)** | [Video bağlantısı] |
-| **Hazırlayan** | [Ad Soyad] · [Öğrenci No] |
+| **Hazırlayan** | Melih EFE |
 
 ## Sonuçlar (resmi test seti, 100 motor)
 
